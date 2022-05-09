@@ -14,7 +14,7 @@ app.use(cors())
 app.use('/costume', costume);
 app.use('/transaction', transaction);
 app.get('/', (req, res)=>{
-    res.send('Please be nice to people');
+    res.send('Please be always nice to people');
     console.log('Good people');
 })
 
@@ -24,4 +24,5 @@ app.get('/', (req, res)=>{
 app.listen(process.env.port, (req,res)=>{
 
     console.log('port is listening at 9001')
+
 });
